@@ -1,0 +1,38 @@
+.profile.profile-content h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  color: var(--terra-primary);
+  display: inline-flex; /* Garante que o conteúdo fique lado a lado */
+  gap: 10px; /* Espaçamento entre o nome e sobrenome */
+  align-items: center; /* Centraliza verticalmente caso haja ícones ou elementos adicionais */
+  justify-content: center; /* Centraliza horizontalmente */
+  margin: 0; /* Remove espaçamento extra */
+}
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .profile-content h1 {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: #757575;
+    text-align: justify
+  }
+  
+  .profile-content h3 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #757575;
+    text-align:center
+  }
+  
+  .profile-content p {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+    text-align: center;
+  }
+  

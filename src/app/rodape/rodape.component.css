@@ -1,0 +1,31 @@
+footer {
+  background-color: #333; /* Mantém o fundo escuro */
+  color: #fff; /* Texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px 5px; /* Reduz o espaço interno */
+  font-size: 0.9rem; /* Diminui o tamanho da fonte */
+}
+
+footer p {
+  margin: 0; /* Remove margens desnecessárias */
+}
+
+
+.icon-container {
+  display: flex; /* Alinha os ícones em linha */
+  justify-content: center; /* Centraliza os ícones */
+  gap: 15px; /* Define o espaçamento entre os ícones */
+  margin-top: 10px; /* Adiciona um pequeno espaço acima */
+}
+
+.icon-container svg {
+  width: 25px; /* Ajusta o tamanho dos ícones */
+  height: 25px;
+  cursor: pointer; /* Mostra que os ícones são clicáveis */
+  transition: transform 0.3s ease; /* Efeito ao passar o mouse */
+}
+
+.icon-container svg:hover {
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+
+}
